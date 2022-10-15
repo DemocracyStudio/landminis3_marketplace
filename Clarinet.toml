@@ -1,0 +1,47 @@
+[project]
+name = "marketplace0"
+authors = []
+description = ""
+telemetry = false
+requirements = []
+boot_contracts = ["pox", "costs-v2", "bns"]
+
+[project.cache_location]
+path = ".requirements"
+[contracts.marketplace0]
+path = "contracts/marketplace0.clar"
+
+[contracts.sip009-nft]
+path = "contracts/sip009-nft.clar"
+depends_on =["sip009-nft-trait"]
+
+[contracts.bogus-nft]
+path = "contracts/sip009-nft.clar"
+depends_on =["sip009-nft-trait"]
+
+[contracts.sip009-nft-trait]
+path = "contracts/sip009-nft-trait.clar"
+
+[contracts.sip010-token]
+path = "contracts/sip010-token.clar"
+depends_on =["sip010-ft-trait"]
+
+[contracts.bogus-ft]
+path = "contracts/sip010-token.clar"
+depends_on =["sip010-ft-trait"]
+
+[contracts.sip010-ft-trait]
+path = "contracts/sip010-ft-trait.clar"
+
+[repl]
+costs_version = 2
+parser_version = 2
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
