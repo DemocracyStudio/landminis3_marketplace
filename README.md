@@ -1,2 +1,2 @@
 # nft_marketplace
-This repo contains an NFT marketplace written in clarity on stacks blockchain.
+This repo contains the first version of LandMinis3 NFT marketplace for the fractional ownership of tokenized real estate. Written in clarity for Stacks blockchain, secured by Bitcoin.
