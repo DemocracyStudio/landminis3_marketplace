@@ -1,7 +1,7 @@
 # landminis3_marketplace
 This repo contains the first version of LandMinis3 NFT marketplace for the fractional ownership of tokenized real estate. Written in clarity for Stacks blockchain, secured by Bitcoin.
 
-![My image](http://url/to/image.jpg)
+![My image](https://github.com/DemocracyStudio/landminis3_marketplace/blob/main/landingpage%201.png)
 
 Real estate is the oldest and the most popular investment around the world. With a projected growth of $4,000+ Billion by 2025*, the market for land and property sales works with an outdated system of paper record storage and offline transactions. Nowadays, transacting properties still takes a lot of time and costs a lot of money. Consequently, only 1% of the existing real estate is available on the stock market, and most of it (93%) is reserved for accredited investors (~4% of the American population**).
 
